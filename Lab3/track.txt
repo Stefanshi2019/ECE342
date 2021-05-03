@@ -1,0 +1,69 @@
+#######################Part3###########################
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 11:36:31 on Feb 11,2021
+vlog part3.sv 
+-- Compiling module part3
+
+Top level modules:
+	part3
+End time: 11:36:32 on Feb 11,2021, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "/cad2/ece342s/public/3/test/run.do" work.tb 
+# Start time: 11:36:32 on Feb 11,2021
+# //  ModelSim - Intel FPGA Edition 2020.1 Feb 28 2020 Linux 4.19.0-13-amd64
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim - Intel FPGA Edition and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.part3
+# do /cad2/ece342s/public/3/test/run.do
+# PASS Functionality Checking: -0.000821845 * -1.17679e+28 = 9.67141e+24, expected 9.67141e+24
+# Infinity = 0, NaN = 0, Zero = 0, Overflow = 0, Underflow = 0
+# PASS Functionality Checking: 1.26791e-07 * -3.93022e-08 = -4.98316e-15, expected -4.98316e-15
+# Infinity = 0, NaN = 0, Zero = 0, Overflow = 0, Underflow = 0
+# PASS Functionality Checking: 2.76806e+17 * 2.07515e-10 = 5.74414e+07, expected 5.74414e+07
+# Infinity = 0, NaN = 0, Zero = 0, Overflow = 0, Underflow = 0
+# PASS Functionality Checking: 3.61112e-34 * 1.17549e-38 = 0, expected 0
+# Infinity = 0, NaN = 0, Zero = 0, Overflow = 0, Underflow = 1
+# PASS Functionality Checking: 0 * -1.10735e-07 = 0, expected 0
+# Infinity = 0, NaN = 0, Zero = 1, Overflow = 0, Underflow = 0
+# PASS Functionality Checking: nan * 7.75063e+31 = inf, expected 2.1391e+09
+# Infinity = 0, NaN = 1, Zero = 0, Overflow = 0, Underflow = 0
+# PASS Functionality Checking: -1.03947e+37 * -1.03947e+37 = inf, expected 2.1391e+09
+# Infinity = 0, NaN = 0, Zero = 0, Overflow = 1, Underflow = 0
+# PASS Functionality Checking: -1.18351e-27 * -2.17759e+222 = 2.57719e+195, expected 2.57719e+195
+# Infinity = 0, NaN = 0, Zero = 0, Overflow = 0, Underflow = 0
+# PASS Functionality Checking: 6.17252e-56 * 1.36511e-37 = 8.42618e-93, expected 8.42618e-93
+# Infinity = 0, NaN = 0, Zero = 0, Overflow = 0, Underflow = 0
+# PASS Functionality Checking: -1.49533e-15 * -4.22733e+249 = 6.32126e+234, expected 6.32126e+234
+# Infinity = 0, NaN = 0, Zero = 0, Overflow = 0, Underflow = 0
+# PASS Functionality Checking: 2.37449e-308 * 9.11714e-304 = 0, expected 0
+# Infinity = 0, NaN = 0, Zero = 0, Overflow = 0, Underflow = 1
+# PASS Functionality Checking: inf * 1.36511e-37 = inf, expected inf
+# Infinity = 1, NaN = 0, Zero = 0, Overflow = 0, Underflow = 0
+# ** Note: $stop    : /cad2/ece342s/public/3/test/part3tb.sv(159)
+#    Time: 60 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at /cad2/ece342s/public/3/test/part3tb.sv line 159
+# Stopped at /cad2/ece342s/public/3/test/part3tb.sv line 159
+# End time: 11:36:33 on Feb 11,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+######################SUMMARY of part3##########################
+Number of Errors by compiling the verilog code: 0
+Number of Errors by running the simulation: 0
+Number of PASSED: 12
+Number of FAILED: 0
+part3 is done!

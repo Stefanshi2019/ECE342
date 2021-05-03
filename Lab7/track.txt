@@ -1,0 +1,113 @@
+#######################Part1###########################
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 02:38:44 on Apr 16,2021
+vlog part1.sv 
+-- Compiling module cpu
+-- Compiling module ALU_2
+-- Compiling module RegisterBank
+-- Compiling module IMMMultiplexer
+-- Compiling module PC_adder
+-- Compiling module PCRegister
+-- Compiling module Reg
+-- Compiling module RegPC
+-- Compiling module MemProc
+
+Top level modules:
+	cpu
+	MemProc
+End time: 02:38:44 on Apr 16,2021, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "/cad2/ece342s/public/7/test/run.do" work.tb 
+# Start time: 02:38:45 on Apr 16,2021
+# //  ModelSim - Intel FPGA Edition 2020.1 Feb 28 2020 Linux 4.19.0-14-amd64
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim - Intel FPGA Edition and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.cpu
+# Loading work.RegisterBank
+# Loading work.IMMMultiplexer
+# Loading work.ALU_2
+# Loading work.PCRegister
+# Loading work.RegPC
+# Loading work.Reg
+# Loading work.PC_adder
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'alu2'.  Expected 21, found 20.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/dut/alu2 File: part1.sv Line: 111
+# ** Warning: (vsim-3722) part1.sv(111): [TFMPC] - Missing connection for port 'mem_op'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'data_in'. The port definition is at: part1.sv(633).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/dut/REG_WRITE File: part1.sv Line: 141
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'data_out'. The port definition is at: part1.sv(634).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/dut/REG_WRITE File: part1.sv Line: 141
+# do /cad2/ece342s/public/7/test/run.do
+# ================================
+# Starting test 0 (0_basic-L7.hex)
+# Entered test region PC=0
+# Exited test region PC=34
+# Functional correctness: Pass
+# Instructions/cycles: 14/14
+# IPC expected/achieved: 1.000000/1.000000
+# Performance result: Pass
+# ================================
+# ================================
+# Starting test 1 (1_arithdep-L7.hex)
+# Entered test region PC=0
+# Exited test region PC=48
+# Functional correctness: Pass
+# Instructions/cycles: 19/19
+# IPC expected/achieved: 1.000000/1.000000
+# Performance result: Pass
+# ================================
+# ================================
+# Starting test 2 (2_branch_nottaken-L7.hex)
+# Entered test region PC=0
+# Exited test region PC=4c
+# Functional correctness: Pass
+# Instructions/cycles: 20/20
+# IPC expected/achieved: 1.000000/1.000000
+# Performance result: Pass
+# ================================
+# ================================
+# Starting test 3 (3_branch_taken-L7.hex)
+# Entered test region PC=0
+# Exited test region PC=bc
+# Functional correctness: Pass
+# Instructions/cycles: 24/51
+# IPC expected/achieved: 0.328125/0.470588
+# Performance result: Pass
+# ================================
+# ================================
+# Starting test 4 (4_memdep-L7.hex)
+# Entered test region PC=0
+# Exited test region PC=54
+# Functional correctness: Pass
+# Instructions/cycles: 22/22
+# IPC expected/achieved: 1.000000/1.000000
+# Performance result: Pass
+# ================================
+# ** Note: $stop    : /cad2/ece342s/public/7/test/part1tb.sv(449)
+#    Time: 2105 ps  Iteration: 1  Instance: /tb
+# Break in Module tb at /cad2/ece342s/public/7/test/part1tb.sv line 449
+# Stopped at /cad2/ece342s/public/7/test/part1tb.sv line 449
+# End time: 02:38:45 on Apr 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+######################SUMMARY of part1##########################
+Number of Errors by compiling the verilog code: 0
+Number of Errors by running the simulation: 0
+Number of PASSED: 10
+Number of FAILED: 0
+part1 is done!
